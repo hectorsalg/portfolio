@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+}
+
+header {
+    padding: .5em 3em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+    font-size: 1.3em;
+    margin-bottom: 2em;
+    border-bottom: solid 1px #7a7a7a23;
+}
+
+.logo {
+    text-decoration: none;
+    color: #000;
+}
+
+.pageOn {
+    border-bottom: solid 5px #279AF1;
+    border-radius: 5px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    margin-right: 3em;
+    list-style-type: none;
+}
+
+li a {
+    text-decoration: none;
+    color: #000;
+    transition: all 0.2s;
+}
+
+li a:hover {
+    color: #279AF1;
+}
+
+.containerMain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 70vw;
+    height: 80vh;
+    padding: .5em 3em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main div {
+    text-align: center;
+}
+
+main div h1 {
+    text-align: left;
+    margin-bottom: .8em;
+    font-size: 3em;
+}
+
+main div h1 span{
+    color: #279AF1;
+}
+
+img {
+    width: 390px;
+    border-radius: 51% 39% 61% 49% / 31% 39% 61% 69% ;
+}
+
+button {
+    background-color: #279AF1;
+    border: none;
+    border-radius: 5px;
+    padding: 1em 1.6em ;
+    font-weight: 700;
+    color: #fff;
+}
+
+button:hover {
+    background-color: #1875bd;
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    gap: 1em;
+    padding: 0em 4em;
+}
+
+a {
+    color: #000;
+}
+
+a i:hover {
+    cursor: pointer;
+    color: #279AF1;
+}
