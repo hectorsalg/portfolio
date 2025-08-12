@@ -1,0 +1,51 @@
+.text-apresentation {
+    font-size: 3.5em;
+}
+
+.pt-8 {
+    padding-top: 8rem;
+}
+
+.mb-6 {
+    margin-bottom: 6rem;
+}
+
+.text-home {
+    text-align: right;
+    font-size: 16em;
+}
+
+.h-container-home {
+    height: 90vh;
+}
+
+@media screen and (max-width: 768px) {
+    .pt-8 {
+        padding-top: 3rem;
+    }
+
+    .text-apresentation {
+        font-size: 2em;
+        text-align: center;
+    }
+
+    .text-home {
+        font-size: 8em;
+        text-align: center;
+    }
+
+    .container-icons {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .text-home {
+        font-size: 12em;
+        text-align: center;
+    }
+
+    .container-icons {
+        justify-content: center;
+    }
+}
