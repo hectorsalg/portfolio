@@ -7,3 +7,12 @@
 .nav-link {
     font-weight: bold;
 }
+
+[data-bs-theme="dark"] .navbar {
+    background-color: var(--bs-dark) !important;
+}
+
+[data-bs-theme="dark"] .nav-link,
+[data-bs-theme="dark"] .navbar-brand {
+    color: var(--bs-light);
+}

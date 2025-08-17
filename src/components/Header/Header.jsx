@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import ThemeToggle from '../Theme/ThemeToggle'; // Importe o ThemeToggle
 import './Header.css';
 
 function Header() {
@@ -26,7 +27,7 @@ function Header() {
 
   return (
     <header className="sticky-top">
-      <Navbar expand="lg" bg="white" className="border-bottom">
+      <Navbar expand="lg" className="border-bottom">
         <Container className="justify-content-between">
           <Navbar.Brand href="#home" className="fw-bold">
             Hector Salgueiros
@@ -41,6 +42,7 @@ function Header() {
                 <Nav.Link href="#projects" className="nav-link fw-bold">Projetos</Nav.Link>
                 <Nav.Link href="#contact" className="nav-link fw-bold">Contato</Nav.Link>
               </Nav>
+              <ThemeToggle />
             </Navbar.Collapse>
           </div>
         </Container>
