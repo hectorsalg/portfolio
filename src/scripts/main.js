@@ -1,9 +1,5 @@
-
-
-// 2. Lógica do Tema (Light/Dark)
 function initTheme() {
     const userPref = localStorage.getItem('theme');
-    // Define padrão como Dark se não houver preferência
     const isDark = userPref === 'dark' || (!userPref && true);
 
     if (isDark) {
@@ -11,12 +7,9 @@ function initTheme() {
     } else {
         document.documentElement.classList.remove('dark');
     }
-
-    // Tenta atualizar o ícone se ele já existir (caso contrário será atualizado no loadComponent)
     updateThemeIcon(isDark);
 }
 
-// Executa IMEDIATAMENTE para evitar o "flash" de cor errada
 initTheme();
 
 function toggleTheme() {
@@ -28,7 +21,6 @@ function toggleTheme() {
 }
 
 function updateThemeIcon(isDark) {
-    // Verifica se isDark é booleano, se não for (ex: chamada sem args), recalcula
     if (typeof isDark !== 'boolean') {
         isDark = document.documentElement.classList.contains('dark');
     }
@@ -39,7 +31,6 @@ function updateThemeIcon(isDark) {
     }
 }
 
-// 3. Função para carregar componentes HTML
 async function loadComponent(elementId, filePath, callback) {
     try {
         const response = await fetch(filePath);
@@ -55,7 +46,6 @@ async function loadComponent(elementId, filePath, callback) {
     }
 }
 
-// 4. Lógica para destacar o link ativo e Menu Mobile
 function highlightActiveLink() {
     const currentPage = window.location.pathname.split("/").pop() || "index.html";
     const links = document.querySelectorAll('.sidebar-link');
@@ -98,20 +88,15 @@ function initMobileMenu() {
     }
 }
 
-// 5. Lógica do Botão de Tema
 function initThemeToggleBtn() {
     const btn = document.getElementById('theme-toggle-btn');
     if (btn) {
         btn.addEventListener('click', toggleTheme);
-        // Garante que o ícone está correto após o HTML do header carregar
         updateThemeIcon();
     }
 }
 
-// 6. Inicialização DOM
 document.addEventListener("DOMContentLoaded", () => {
-    // initTheme() foi removido daqui pois agora roda no topo do script
-
     loadComponent("header-placeholder", "./components/header.html", () => {
         initMobileMenu();
         initThemeToggleBtn();
