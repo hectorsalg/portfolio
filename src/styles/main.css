@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+    /* Suas cores personalizadas agora ficam aqui */
+    --color-background-dark: var(--bg-main);
+    --color-surface-dark: var(--bg-surface);
+    --color-surface-accent: var(--bg-accent);
+    --color-surface-element: var(--bg-element);
+    --color-primary: var(--text-main);
+    --color-text-secondary: var(--text-sec);
+    --color-border-color: var(--border);
+
+    --font-display: "Manrope", sans-serif;
+}
+
+/* Suas variáveis de sistema (Light/Dark) continuam aqui */
+:root {
+    --bg-main: #f3f4f6;
+    --bg-surface: #ffffff;
+    --bg-accent: #e5e7eb;
+    --bg-element: #f9fafb;
+    --text-main: #111827;
+    --text-sec: #4b5563;
+    --border: #d1d5db;
+}
+
+.dark {
+    --bg-main: #0a0a0a;
+    --bg-surface: #111111;
+    --bg-accent: #222222;
+    --bg-element: #1a1a1a;
+    --text-main: #ffffff;
+    --text-sec: #888888;
+    --border: #333333;
+}
+
+/* O restante do seu CSS original (scrollbar, etc) */
+
+.skill-tag {
+    padding: 0.25rem 0.75rem;
+    border-radius: 9999px;
+    background-color: var(--bg-element);
+    font-size: 0.875rem;
+    color: var(--text-sec);
+    border: 1px solid var(--border);
+    transition: all 0.2s;
+    cursor: default;
+}
+
+.skill-tag:hover {
+    border-color: var(--text-sec);
+    background-color: var(--bg-accent);
+    color: var(--text-main);
+}
