@@ -4,6 +4,7 @@ const tailwindcss = require('@tailwindcss/postcss');
 const autoprefixer = require('autoprefixer');
 const cssnano = require('cssnano');
 const terser = require('gulp-terser');
+const imagemin = require('gulp-imagemin'); // Adicione esta linha
 
 function styles() {
     return gulp.src('./src/styles/main.css')
@@ -33,6 +34,7 @@ function scripts() {
 
 function images() {
     return gulp.src('./src/images/**/*')
+        .pipe(imagemin()) // Adicione este pipe
         .pipe(gulp.dest('./dist/images'));
 }
 
