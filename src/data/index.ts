@@ -48,5 +48,50 @@ export const portfolioData = {
     { id: 24, name: 'Gulp' }, { id: 25, name: 'Grunt' }, { id: 26, name: 'Parcel' }, { id: 27, name: 'Vite' },
     { id: 28, name: 'NestJS' }, { id: 29, name: 'Node.js' }, { id: 30, name: 'Python' }, { id: 31, name: 'Django' },
     { id: 32, name: 'PostgreSQL' }, { id: 33, name: 'Prisma ORM' }
-  ] as Skill[]
+  ] as Skill[],
+
+  projects: [
+    {
+      id: 1,
+      image: '/assets/disneyplus.png',
+      techStack: ['HTML', 'JavaScript', 'SASS', 'Bootstrap', 'Flexbox', 'Media Queries', 'Gulp'],
+      linkGithub: 'https://github.com/hectorsalg/clone_disneyplus',
+      linkPreview: 'https://clone-disneyplus-hectorsalg.vercel.app/'
+    },
+    {
+      id: 2,
+      image: '/assets/projeto-costs.png',
+      techStack: ['HTML', 'React', 'Vite', 'JavaScript', 'CSS Modules', 'JSON'],
+      linkGithub: 'https://github.com/hectorsalg/projeto-cost',
+      linkPreview: 'https://hectorsalg.github.io/projeto-cost/'
+    },
+    {
+      id: 3,
+      image: '/assets/cars-landingpage.png',
+      techStack: ['HTML', 'SASS', 'JavaScript', 'Gulp', 'Media Queries', 'Flexbox'],
+      linkGithub: 'https://github.com/hectorsalg/cars-landing-page',
+      linkPreview: 'https://cars-landing-page-hectorsalg.vercel.app/'
+    },
+    {
+      id: 4,
+      image: '/assets/projeto-worldcup.png',
+      techStack: ['HTML', 'SASS', 'JavaScript', 'Parcel', 'Media Queries', 'CSS GRID', 'Flexbox', 'Mobile First'],
+      linkGithub: 'https://github.com/hectorsalg/world-cup-timer',
+      linkPreview: 'https://world-cup-timer.vercel.app/'
+    },
+    {
+      id: 5,
+      image: '/assets/projeto-loja-entendo.png',
+      techStack: ['HTML', 'CSS', 'Bootstrap'],
+      linkGithub: 'https://github.com/hectorsalg/projeto-loja-entendo',
+      linkPreview: 'https://projeto-loja-entendo.vercel.app/'
+    },
+    {
+      id: 6,
+      image: '/assets/projeto-pizzaria.png',
+      techStack: ['HTML', 'CSS', 'Bootstrap'],
+      linkGithub: 'https://github.com/hectorsalg/projeto-pizzaria',
+      linkPreview: 'https://projeto-pizzaria-hector.vercel.app/'
+    }
+  ] as Project[]
 };
