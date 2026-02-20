@@ -50,6 +50,17 @@ export const portfolioData = {
     { id: 32, name: 'PostgreSQL' }, { id: 33, name: 'Prisma ORM' }
   ] as Skill[],
 
+  experience: [
+    {
+      id: 1,
+      skills: ['TypeScript', 'Angular', 'NestJS', 'PostgreSQL', 'Prisma ORM', 'Jira', 'Fetch API']
+    },
+    {
+      id: 2,
+      skills: ['TypeScript', 'Python', 'Django', 'REST API', 'PostgreSQL', 'Prisma ORM']
+    }
+  ] as Experience[],
+
   projects: [
     {
       id: 1,

@@ -41,10 +41,20 @@
     { "id": 2, "name": "Inglês", "level": "Intermediário" },
     { "id": 3, "name": "Espanhol", "level": "Técnico" }
   ],
-  "experience": [
-    { "id": 1, "role": "Desenvolvedor Full Stack", "company": "Freelance", "period": "Jan 2025 - Jul 2025", "description": "Desenvolvimento e manutenção de aplicações web de alta performance. Otimização avançada de queries em PostgreSQL e resolução de desafios técnicos complexos.", "skills": ["TypeScript", "Angular", "NestJS", "PostgreSQL", "Prisma ORM", "Jira", "Fetch API"] },
-    { "id": 2, "role": "Estagiário Back-End", "company": "Fábrica de Gênios", "period": "Set 2023 - Abr 2024", "description": "Desenvolvimento e manutenção de sistemas back-end com Python/Django e migração de legado para NestJS. Criação de APIs RESTful para integração eficiente de dados.", "skills": ["TypeScript", "Python", "Django", "REST API", "PostgreSQL", "Prisma ORM"] }
-  ],
+  "experience": {
+    "1": {
+      "role": "Desenvolvedor Full Stack",
+      "company": "Profissional Autônomo",
+      "period": "Jan 2025 - Jul 2025",
+      "description": "Desenvolvimento e manutenção de aplicações web de alta performance. Otimização avançada de queries em PostgreSQL e resolução de desafios técnicos complexos."
+    },
+    "2": {
+      "role": "Estagiário Back-End",
+      "company": "Fábrica de Gênios",
+      "period": "Set 2023 - Abr 2024",
+      "description": "Desenvolvimento e manutenção de sistemas back-end com Python/Django e migração de legado para NestJS. Criação de APIs RESTful para integração eficiente de dados."
+    }
+  },
   "projects": {
     "1": {
       "title": "Clone Disney+",
