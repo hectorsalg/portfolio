@@ -1,14 +1,18 @@
-import { portfolioData } from '../../data';
+import { useTranslation } from 'react-i18next';
+import type { Experience as ExperienceType } from '../../data';
 
 export function Experience() {
+  const { t } = useTranslation();
+  const experienceList = t('experience', { returnObjects: true }) as ExperienceType[];
+
   return (
     <div className="p-8 md:p-12 max-w-200 mx-auto w-full">
-      <h2 className="text-2xl font-bold text-primary mb-8">Experiência Profissional</h2>
+      <h2 className="text-2xl font-bold text-primary mb-8">{t('ui.experience.title')}</h2>
 
       <section>
         <div className="space-y-8 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-linear-to-b before:from-transparent before:via-border-color before:to-transparent">
           
-          {portfolioData.experience.map((job, index) => (
+          {experienceList.map((job, index) => (
             <div key={job.id} className={`relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group ${index === 0 ? 'is-active' : ''}`}>
               <div className="flex items-center justify-center w-10 h-10 rounded-full border border-border-color bg-surface-element group-[.is-active]:bg-primary group-[.is-active]:border-primary shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 translate-y-10 z-10 transition-colors">
                 <span className={`material-symbols-outlined text-base ${index === 0 ? 'text-background-dark' : 'text-text-secondary'}`}>

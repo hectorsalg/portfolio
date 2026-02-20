@@ -1,0 +1,53 @@
+{
+  "ui": {
+    "sidebar": {
+      "role": "Front-End Engineer",
+      "about": "About",
+      "experience": "Experience",
+      "projects": "Projects"
+    },
+    "home": {
+      "greeting": "Hi, I'm Hector",
+      "aboutText": "Front-End Developer, Bachelor's in Information Systems from UFPI, focused on creating modern, responsive, and user-centered interfaces. I work with JavaScript and TypeScript, using Angular and React, and I have Back-End knowledge with NestJS, Prisma, and PostgreSQL, which allows me to have a complete view of applications.",
+      "techTitle": "Technical Skills",
+      "techLangs": "Programming Languages",
+      "techFrameworks": "Front-End Frameworks & Libraries",
+      "techStyle": "Styling & Responsive Design",
+      "techVersion": "Versioning & Collaboration",
+      "techApi": "API Consumption & Integration",
+      "techAuto": "Automation & Build Tools",
+      "techBack": "Back-End & Database",
+      "eduTitle": "Education",
+      "langTitle": "Languages"
+    },
+    "experience": {
+      "title": "Professional Experience"
+    },
+    "projects": {
+      "title": "My Projects",
+      "codeBtn": "View Code",
+      "webBtn": "Web"
+    }
+  },
+  "education": [
+    { "id": 1, "course": "Front-End Engineer", "level": "Professional Certificate Course", "period": "Dec 2024 - Feb 2026", "local": "British School of Creative Arts and Technology (EBAC)" },
+    { "id": 2, "course": "Information Systems", "level": "Bachelor's Degree", "period": "Aug 2021 - Dec 2025", "local": "Federal University of Piauí (UFPI)" }
+  ],
+  "languages": [
+    { "id": 1, "name": "Portuguese", "level": "Native" },
+    { "id": 2, "name": "English", "level": "Intermediate" },
+    { "id": 3, "name": "Spanish", "level": "Technical" }
+  ],
+  "experience": [
+    { "id": 1, "role": "Full Stack Developer", "company": "Freelance", "period": "Jan 2025 - Jul 2025", "description": "Development and maintenance of high-performance web applications. Advanced PostgreSQL query optimization and resolution of complex technical challenges.", "skills": ["TypeScript", "Angular", "NestJS", "PostgreSQL", "Prisma ORM", "Jira", "Fetch API"] },
+    { "id": 2, "role": "Back-End Intern", "company": "Fábrica de Gênios", "period": "Sep 2023 - Apr 2024", "description": "Development and maintenance of back-end systems with Python/Django and legacy migration to NestJS. Creation of RESTful APIs for efficient data integration.", "skills": ["TypeScript", "Python", "Django", "REST API", "PostgreSQL", "Prisma ORM"] }
+  ],
+  "projects": [
+    { "id": 1, "title": "Disney+ Clone", "description": "Replica of the Disney+ landing page.", "image": "/assets/disneyplus.png", "techStack": ["HTML", "JavaScript", "SASS", "Bootstrap", "Flexbox", "Media Queries", "Gulp"], "date": "Jan 2026", "linkGithub": "https://github.com/hectorsalg/clone_disneyplus", "linkPreview": "https://clone-disneyplus-hectorsalg.vercel.app/" },
+    { "id": 2, "title": "Costs Project", "description": "Project management and cost control system.", "image": "/assets/projeto-costs.png", "techStack": ["HTML", "React", "Vite", "JavaScript", "CSS Modules", "JSON"], "date": "Dec 2025", "linkGithub": "https://github.com/hectorsalg/projeto-cost", "linkPreview": "https://hectorsalg.github.io/projeto-cost/" },
+    { "id": 3, "title": "Cars Movie Project", "description": "Landing page for Disney Pixar's \"Cars\" movie.", "image": "/assets/cars-landingpage.png", "techStack": ["HTML", "SASS", "JavaScript", "Gulp", "Media Queries", "Flexbox"], "date": "Jan 2026", "linkGithub": "https://github.com/hectorsalg/cars-landing-page", "linkPreview": "https://cars-landing-page-hectorsalg.vercel.app/" },
+    { "id": 4, "title": "World Cup 2026 Project", "description": "Landing page for a 2026 World Cup timer.", "image": "/assets/projeto-worldcup.png", "techStack": ["HTML", "SASS", "JavaScript", "Parcel", "Media Queries", "CSS GRID", "Flexbox", "Mobile First"], "date": "Jan 2026", "linkGithub": "https://github.com/hectorsalg/world-cup-timer", "linkPreview": "https://world-cup-timer.vercel.app/" },
+    { "id": 5, "title": "Entendo Store Project", "description": "Landing page for a fictional game store.", "image": "/assets/projeto-loja-entendo.png", "techStack": ["HTML", "CSS", "Bootstrap"], "date": "Aug 2025", "linkGithub": "https://github.com/hectorsalg/projeto-loja-entendo", "linkPreview": "https://projeto-loja-entendo.vercel.app/" },
+    { "id": 6, "title": "Pizzeria Project", "description": "Landing page for a fictional pizzeria.", "image": "/assets/projeto-pizzaria.png", "techStack": ["HTML", "CSS", "Bootstrap"], "date": "Aug 2025", "linkGithub": "https://github.com/hectorsalg/projeto-pizzaria", "linkPreview": "https://projeto-pizzaria-hector.vercel.app/" }
+  ]
+}

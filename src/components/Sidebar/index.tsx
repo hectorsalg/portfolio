@@ -1,10 +1,11 @@
 import { NavLink } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import { useAppContext } from '../../context/AppContext';
-
 import FotoPerfil from '/assets/perfil.jpg';
 
 export function Sidebar() {
   const { setMobileMenuOpen } = useAppContext();
+  const { t } = useTranslation();
   const closeMenu = () => setMobileMenuOpen(false);
 
   return (
@@ -14,7 +15,7 @@ export function Sidebar() {
           <div className="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-14 shrink-0 ring-2 ring-border-color" style={{ backgroundImage: `url(${FotoPerfil})` }}></div>
           <div className="flex flex-col overflow-hidden">
             <h1 className="text-primary text-lg font-bold leading-tight truncate">Hector Salgueiros</h1>
-            <p className="text-text-secondary text-sm font-normal leading-normal truncate">Engenheiro Front-End</p>
+            <p className="text-text-secondary text-sm font-normal leading-normal truncate">{t('ui.sidebar.role')}</p>
           </div>
         </div>
 
@@ -23,7 +24,7 @@ export function Sidebar() {
             {({ isActive }) => (
               <>
                 <span className={`material-symbols-outlined transition-colors ${isActive ? 'text-primary' : 'text-text-secondary group-hover:text-primary'}`}>info</span>
-                <p className={`text-sm leading-normal transition-colors ${isActive ? 'text-primary font-bold' : 'text-text-secondary font-medium group-hover:text-primary'}`}>Sobre</p>
+                <p className={`text-sm leading-normal transition-colors ${isActive ? 'text-primary font-bold' : 'text-text-secondary font-medium group-hover:text-primary'}`}>{t('ui.sidebar.about')}</p>
               </>
             )}
           </NavLink>
@@ -32,7 +33,7 @@ export function Sidebar() {
             {({ isActive }) => (
               <>
                 <span className={`material-symbols-outlined transition-colors ${isActive ? 'text-primary' : 'text-text-secondary group-hover:text-primary'}`}>work</span>
-                <p className={`text-sm leading-normal transition-colors ${isActive ? 'text-primary font-bold' : 'text-text-secondary font-medium group-hover:text-primary'}`}>Experiência</p>
+                <p className={`text-sm leading-normal transition-colors ${isActive ? 'text-primary font-bold' : 'text-text-secondary font-medium group-hover:text-primary'}`}>{t('ui.sidebar.experience')}</p>
               </>
             )}
           </NavLink>
@@ -41,7 +42,7 @@ export function Sidebar() {
             {({ isActive }) => (
               <>
                 <span className={`material-symbols-outlined transition-colors ${isActive ? 'text-primary' : 'text-text-secondary group-hover:text-primary'}`}>rocket_launch</span>
-                <p className={`text-sm leading-normal transition-colors ${isActive ? 'text-primary font-bold' : 'text-text-secondary font-medium group-hover:text-primary'}`}>Projetos</p>
+                <p className={`text-sm leading-normal transition-colors ${isActive ? 'text-primary font-bold' : 'text-text-secondary font-medium group-hover:text-primary'}`}>{t('ui.sidebar.projects')}</p>
               </>
             )}
           </NavLink>
