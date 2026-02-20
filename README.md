@@ -1,73 +1,75 @@
-# React + TypeScript + Vite
+# My Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive, and interactive portfolio developed to showcase my projects, professional experience, and technical skills. Built with the latest technologies in the React ecosystem.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Multilingual (i18n):** Native support for Portuguese (PT) and English (EN), allowing you to reach a global audience.
+- **Dark / Light Mode:** Seamless theme toggling persisted in the browser's `localStorage`.
+- **Responsive Design:** Optimized interface for mobile devices, tablets, and desktops, including an adaptable Sidebar navigation.
+- **Single Page Application (SPA):** Fast and smooth navigation between "About", "Experience", and "Projects" pages without reloading the page.
+- **Centralized Data Management:** All information (projects, skills, experiences) is isolated in a single data file, making future updates much easier.
 
-## React Compiler
+## 🛠️ Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This project was built using the following technologies:
 
-## Expanding the ESLint configuration
+- **[React 19](https://react.dev/):** Main library for building the user interface.
+- **[TypeScript](https://www.typescriptlang.org/):** Static typing for a more secure and maintainable code.
+- **[Vite](https://vitejs.dev/):** Ultra-fast bundler and development environment.
+- **[Tailwind CSS v4](https://tailwindcss.com/):** Utility-first CSS framework for rapid and consistent styling.
+- **[React Router v7](https://reactrouter.com/):** Routing and navigation for the application.
+- **[i18next](https://www.i18next.com/) & [react-i18next](https://react.i18next.com/):** Internationalization and content translation.
+- **Context API:** Global state management for the theme (Dark/Light) and mobile menu control.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🚀 How to run the project locally
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+To run this project on your local machine, make sure you have [Node.js](https://nodejs.org/) installed.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/hectorsalg/portfolio](https://github.com/hectorsalg/portfolio)
+    ```
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+2. **Navigate to the project folder:**
+   ```bash
+   cd portfolio
+    ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+3. **Install the dependencies:**
+   ```bash
+   npm install
+    ```
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+4. **Start the development server:**
+   ```bash
+   npm run dev
+    ```
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+5. **Open in your browser:**
+
+      The project will be available at http://localhost:5173.
+
+## 📂 Project Structure
+
+Below is the main organization of the source code (src/):
+
+    src/
+    ├── components/   # Reusable components (Header, Sidebar, Layout, etc.)
+    ├── context/      # Global application contexts (e.g., AppContext for Theme and Menu)
+    ├── data/         # Centralized data file for the portfolio (skills, projects)
+    ├── locales/      # Translation JSON files (en.json, pt.json)
+    ├── pages/        # Main pages (Home, Experience, Projects)
+    ├── styles/       # Global CSS files (Tailwind configuration and variables)
+    ├── App.tsx       # Routing configuration (React Router)
+    ├── i18n.ts       # i18next configuration
+    └── main.tsx      # Main entry point of the React application
+
+## ☁️ Deployment
+
+This project is ready to be deployed on platform [Vercel](https://hectorsalgueiros.vercel.app/).
+
+## 🤝 Author
+
+Developed by Hector Salgueiros.
+Feel free to get in touch with me through my [Linkedin](https://www.linkedin.com/in/hectorsalg/) or check out my other repositories here on GitHub.
