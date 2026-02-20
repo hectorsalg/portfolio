@@ -1,5 +1,8 @@
 {
   "ui": {
+    "header": {
+      "title": "Portfólio"
+    },
     "sidebar": {
       "role": "Engenheiro Front-End",
       "about": "Sobre",

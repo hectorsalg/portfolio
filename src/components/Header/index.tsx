@@ -3,7 +3,7 @@ import { useAppContext } from '../../context/AppContext';
 
 export function Header() {
   const { theme, toggleTheme, setMobileMenuOpen } = useAppContext();
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
 
   const currentLanguage = i18n.language || 'pt';
 
@@ -22,7 +22,9 @@ export function Header() {
           >
             <span className="material-symbols-outlined text-[28px]">menu</span>
           </button>
-          <div className="text-primary font-bold text-xl tracking-tight">Portfólio</div>
+          <div className="text-primary font-bold text-xl tracking-tight">
+            {t('ui.header.title')}
+          </div>
         </div>
 
         <div className="flex items-center gap-6">
