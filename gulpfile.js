@@ -34,7 +34,7 @@ function scripts() {
 
 function images() {
     return gulp.src('./src/images/**/*')
-        .pipe(imagemin()) // Adicione este pipe
+        .pipe(imagemin())
         .pipe(gulp.dest('./dist/images'));
 }
 
