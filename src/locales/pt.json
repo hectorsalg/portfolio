@@ -57,34 +57,44 @@
   },
   "projects": {
     "1": {
-      "title": "Clone Disney+",
-      "date": "Jan 2026",
-      "description": "Réplica da landing page do Disney+."
+      "title": "Projeto Pizzaria",
+      "date": "Ago 2025",
+      "description": "Landing page para uma pizzaria fictícia."
     },
     "2": {
-      "title": "Projeto Costs",
-      "date": "Dez 2025",
-      "description": "Sistema de gestão de projetos e controlo de custos."
-    },
-    "3": {
-      "title": "Projeto Filme Carros",
-      "date": "Jan 2026",
-      "description": "Landing page para o filme \"Carros\" da Disney Pixar."
-    },
-    "4": {
-      "title": "Projeto World Cup 2026",
-      "date": "Jan 2026",
-      "description": "Landing page para um timer da copa de 2026."
-    },
-    "5": {
       "title": "Projeto Loja \"Entendo\"",
       "date": "Ago 2025",
       "description": "Landing page para uma loja de jogos fictícia."
     },
+    "3": {
+      "title": "Projeto World Cup 2026",
+      "date": "Jan 2026",
+      "description": "Landing page para um timer da copa de 2026."
+    },
+    "4": {
+      "title": "Projeto Filme Carros",
+      "date": "Jan 2026",
+      "description": "Landing page para o filme \"Carros\" da Disney Pixar."
+    },
+    "5": {
+      "title": "Projeto Costs",
+      "date": "Dez 2025",
+      "description": "Sistema de gestão de projetos e controle de custos."
+    },
     "6": {
-      "title": "Projeto Pizzaria",
-      "date": "Ago 2025",
-      "description": "Landing page para uma pizzaria fictícia."
+      "title": "Clone Disney+",
+      "date": "Jan 2026",
+      "description": "Réplica da landing page do Disney+."
+    },
+    "7": {
+      "title": "Lista de tarefas",
+      "date": "Fev 2026",
+      "description": "Interface de lista de tarefas, permitindo adicionar, editar, excluir e organizar tarefas."
+    },
+    "8": {
+      "title": "Agenda de contatos",
+      "date": "Fev 2026",
+      "description": "Interface de gerenciamento de contatos, com funcionalidades para criar, visualizar, editar e excluir."
     }
   }
 }

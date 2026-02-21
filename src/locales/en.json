@@ -57,34 +57,44 @@
   },
   "projects": {
     "1": {
-      "title": "Disney+ Clone",
-      "date": "Jan 2026",
-      "description": "Replica of the Disney+ landing page."
+      "title": "Pizzeria Project",
+      "date": "Aug 2025",
+      "description": "Landing page for a fictional pizzeria."
     },
     "2": {
-      "title": "Costs Project",
-      "date": "Dec 2025",
-      "description": "Project management and cost control system."
-    },
-    "3": {
-      "title": "Cars Movie Project",
-      "date": "Jan 2026",
-      "description": "Landing page for Disney Pixar's \"Cars\" movie."
-    },
-    "4": {
-      "title": "World Cup 2026 Project",
-      "date": "Jan 2026",
-      "description": "Landing page for a 2026 World Cup timer."
-    },
-    "5": {
       "title": "Entendo Store Project",
       "date": "Aug 2025",
       "description": "Landing page for a fictional game store."
     },
+    "3": {
+      "title": "World Cup 2026 Project",
+      "date": "Jan 2026",
+      "description": "Landing page for a 2026 World Cup timer."
+    },
+    "4": {
+      "title": "Cars Movie Project",
+      "date": "Jan 2026",
+      "description": "Landing page for Disney Pixar's \"Cars\" movie."
+    },
+    "5": {
+      "title": "Costs Project",
+      "date": "Dec 2025",
+      "description": "Project management and cost control system."
+    },
     "6": {
-      "title": "Pizzeria Project",
-      "date": "Aug 2025",
-      "description": "Landing page for a fictional pizzeria."
+      "title": "Disney+ Clone",
+      "date": "Jan 2026",
+      "description": "Replica of the Disney+ landing page."
+    },
+    "7": {
+      "title": "To Do",
+      "date": "Feb 2026",
+      "description": "User interface of a To Do List application, allowing users to add, edit, delete, and organize."
+    },
+    "8": {
+      "title": "Contact Book",
+      "date": "Feb 2026",
+      "description": "User interface of a contact management to create, view, edit, and delete."
     }
   }
 }

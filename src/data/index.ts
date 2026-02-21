@@ -64,45 +64,59 @@ export const portfolioData = {
   projects: [
     {
       id: 1,
-      image: '/assets/disneyplus.png',
-      techStack: ['HTML', 'JavaScript', 'SASS', 'Bootstrap', 'Flexbox', 'Media Queries', 'Gulp'],
-      linkGithub: 'https://github.com/hectorsalg/clone_disneyplus',
-      linkPreview: 'https://clone-disneyplus-hectorsalg.vercel.app/'
+      image: '/assets/projeto-pizzaria.png',
+      techStack: ['HTML', 'CSS', 'Bootstrap'],
+      linkGithub: 'https://github.com/hectorsalg/projeto-pizzaria',
+      linkPreview: 'https://projeto-pizzaria-hector.vercel.app/'
     },
     {
       id: 2,
-      image: '/assets/projeto-costs.png',
-      techStack: ['HTML', 'React', 'Vite', 'JavaScript', 'CSS Modules', 'JSON'],
-      linkGithub: 'https://github.com/hectorsalg/projeto-cost',
-      linkPreview: 'https://hectorsalg.github.io/projeto-cost/'
-    },
-    {
-      id: 3,
-      image: '/assets/cars-landingpage.png',
-      techStack: ['HTML', 'SASS', 'JavaScript', 'Gulp', 'Media Queries', 'Flexbox'],
-      linkGithub: 'https://github.com/hectorsalg/cars-landing-page',
-      linkPreview: 'https://cars-landing-page-hectorsalg.vercel.app/'
-    },
-    {
-      id: 4,
-      image: '/assets/projeto-worldcup.png',
-      techStack: ['HTML', 'SASS', 'JavaScript', 'Parcel', 'Media Queries', 'CSS GRID', 'Flexbox', 'Mobile First'],
-      linkGithub: 'https://github.com/hectorsalg/world-cup-timer',
-      linkPreview: 'https://world-cup-timer.vercel.app/'
-    },
-    {
-      id: 5,
       image: '/assets/projeto-loja-entendo.png',
       techStack: ['HTML', 'CSS', 'Bootstrap'],
       linkGithub: 'https://github.com/hectorsalg/projeto-loja-entendo',
       linkPreview: 'https://projeto-loja-entendo.vercel.app/'
     },
     {
+      id: 3,
+      image: '/assets/projeto-worldcup.png',
+      techStack: ['HTML', 'SASS', 'JavaScript', 'Parcel', 'Media Queries', 'CSS GRID', 'Flexbox', 'Mobile First'],
+      linkGithub: 'https://github.com/hectorsalg/world-cup-timer',
+      linkPreview: 'https://world-cup-timer.vercel.app/'
+    },
+    {
+      id: 4,
+      image: '/assets/cars-landingpage.png',
+      techStack: ['HTML', 'SASS', 'JavaScript', 'Gulp', 'Media Queries', 'Flexbox'],
+      linkGithub: 'https://github.com/hectorsalg/cars-landing-page',
+      linkPreview: 'https://cars-landing-page-hectorsalg.vercel.app/'
+    },
+    {
+      id: 5,
+      image: '/assets/projeto-costs.png',
+      techStack: ['HTML', 'React', 'Vite', 'JavaScript', 'CSS Modules', 'JSON'],
+      linkGithub: 'https://github.com/hectorsalg/projeto-costs',
+      linkPreview: 'https://hectorsalg.github.io/projeto-costs/'
+    },
+    {
       id: 6,
-      image: '/assets/projeto-pizzaria.png',
-      techStack: ['HTML', 'CSS', 'Bootstrap'],
-      linkGithub: 'https://github.com/hectorsalg/projeto-pizzaria',
-      linkPreview: 'https://projeto-pizzaria-hector.vercel.app/'
+      image: '/assets/disneyplus.png',
+      techStack: ['HTML', 'JavaScript', 'SASS', 'Bootstrap', 'Flexbox', 'Media Queries', 'Gulp'],
+      linkGithub: 'https://github.com/hectorsalg/clone_disneyplus',
+      linkPreview: 'https://clone-disneyplus-hectorsalg.vercel.app/'
+    },
+    {
+      id: 7,
+      image: '/assets/projeto-contact.png',
+      techStack: ['React', 'TypeScript', 'Redux', 'Styled Components', 'Prettier', 'ESLint'],
+      linkGithub: 'https://github.com/hectorsalg/lista-contatos-react',
+      linkPreview: 'https://lista-contatos-react-hectorsalg.vercel.app/'
+    },
+    {
+      id: 8,
+      image: '/assets/projeto-todo.png',
+      techStack: ['React', 'TypeScript', 'Redux', 'Styled Components'],
+      linkGithub: 'https://github.com/hectorsalg/minhas-tarefas',
+      linkPreview: 'https://minhas-tarefas-hectorsalg.vercel.app/'
     }
   ] as Project[]
 };

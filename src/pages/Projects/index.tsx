@@ -4,12 +4,14 @@ import { portfolioData } from '../../data';
 export function Projects() {
   const { t } = useTranslation();
 
+  const sortedProjects = [...portfolioData.projects].sort((a, b) => b.id - a.id);
+
   return (
     <div className="p-8 md:p-12 max-w-200 mx-auto w-full">
       <h2 className="text-2xl font-bold text-primary mb-8">{t('ui.projects.title')}</h2>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        {portfolioData.projects.map((proj) => (
+        {sortedProjects.map((proj) => (
           <div key={proj.id} className="group relative bg-surface-accent/30 rounded-2xl overflow-hidden border border-border-color hover:border-text-secondary transition-all duration-300 flex flex-col">
             
             <div className="h-48 bg-surface-element relative overflow-hidden flex items-center justify-center border-b border-border-color shrink-0">
