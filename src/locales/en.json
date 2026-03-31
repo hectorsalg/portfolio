@@ -16,6 +16,7 @@
       "techLangs": "Programming Languages",
       "techFrameworks": "Front-End Frameworks & Libraries",
       "techStyle": "Styling & Responsive Design",
+      "techTest": "Tests & Code Quality",
       "techVersion": "Versioning & Collaboration",
       "techApi": "API Consumption & Integration",
       "techAuto": "Automation & Build Tools",
@@ -33,7 +34,7 @@
     }
   },
   "education": [
-    { "id": 1, "course": "Front-End Engineer", "level": "Professional Certificate Course", "period": "Dec 2024 - Feb 2026", "local": "British School of Creative Arts and Technology (EBAC)" },
+    { "id": 1, "course": "Front-End Engineer", "level": "Professional Certificate Course", "period": "Dec 2024 - Apr 2026", "local": "British School of Creative Arts and Technology (EBAC)" },
     { "id": 2, "course": "Information Systems", "level": "Bachelor's Degree", "period": "Aug 2021 - Dec 2025", "local": "Federal University of Piauí (UFPI)" }
   ],
   "languages": [

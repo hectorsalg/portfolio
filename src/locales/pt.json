@@ -16,6 +16,7 @@
       "techLangs": "Linguagens de Programação",
       "techFrameworks": "Frameworks & Bibliotecas Front-end",
       "techStyle": "Estilização & Design Responsivo",
+      "techTest": "Testes & Qualidade de Código",
       "techVersion": "Versionamento & Colaboração",
       "techApi": "Consumo & Integração de APIs",
       "techAuto": "Automação & Build Tools",
@@ -33,7 +34,7 @@
     }
   },
   "education": [
-    { "id": 1, "course": "Engenheiro Front-End", "level": "Curso Livre Profissionalizante", "period": "Dez 2024 - Fev 2026", "local": "Escola Britânica de Artes Criativas e Tecnologia (EBAC)" },
+    { "id": 1, "course": "Engenheiro Front-End", "level": "Curso Livre Profissionalizante", "period": "Dez 2024 - Abr 2026", "local": "Escola Britânica de Artes Criativas e Tecnologia (EBAC)" },
     { "id": 2, "course": "Sistemas de Informação", "level": "Bacharelado", "period": "Ago 2021 - Dez 2025", "local": "Universidade Federal do Piauí (UFPI)" }
   ],
   "languages": [

@@ -47,7 +47,8 @@ export const portfolioData = {
     { id: 20, name: 'Axios' }, { id: 21, name: 'Fetch API' }, { id: 22, name: 'REST API' }, { id: 23, name: 'JSON' },
     { id: 24, name: 'Gulp' }, { id: 25, name: 'Grunt' }, { id: 26, name: 'Parcel' }, { id: 27, name: 'Vite' },
     { id: 28, name: 'NestJS' }, { id: 29, name: 'Node.js' }, { id: 30, name: 'Python' }, { id: 31, name: 'Django' },
-    { id: 32, name: 'PostgreSQL' }, { id: 33, name: 'Prisma ORM' }
+    { id: 32, name: 'PostgreSQL' }, { id: 33, name: 'Prisma ORM' }, { id: 34, name: 'Jest' }, { id: 35, name: 'Testing Library' }, 
+    { id: 36, name: 'Cypress' }
   ] as Skill[],
 
   experience: [
