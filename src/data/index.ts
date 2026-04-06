@@ -48,7 +48,9 @@ export const portfolioData = {
     { id: 24, name: 'Gulp' }, { id: 25, name: 'Grunt' }, { id: 26, name: 'Parcel' }, { id: 27, name: 'Vite' },
     { id: 28, name: 'NestJS' }, { id: 29, name: 'Node.js' }, { id: 30, name: 'Python' }, { id: 31, name: 'Django' },
     { id: 32, name: 'PostgreSQL' }, { id: 33, name: 'Prisma ORM' }, { id: 34, name: 'Jest' }, { id: 35, name: 'Testing Library' }, 
-    { id: 36, name: 'Cypress' }
+    { id: 36, name: 'Cypress' }, { id: 37, name: 'ESLint' }, { id: 38, name: 'Prettier' }, { id: 39, name: 'Styled Components' }, 
+    { id: 40, name: 'CSS Modules' }, { id: 41, name: 'Redux' }, { id: 42, name: 'Figma'}
+
   ] as Skill[],
 
   experience: [
@@ -118,6 +120,13 @@ export const portfolioData = {
       techStack: ['React', 'TypeScript', 'Redux', 'Styled Components'],
       linkGithub: 'https://github.com/hectorsalg/minhas-tarefas',
       linkPreview: 'https://minhas-tarefas-hectorsalg.vercel.app/'
+    },
+    {
+      id: 9,
+      image: '/assets/projeto-efood.png',
+      techStack: ['React', 'TypeScript', 'Styled Components', 'Figma'],
+      linkGithub: 'https://github.com/hectorsalg/projeto-efood',
+      linkPreview: 'https://projeto-efood-hector.vercel.app/'
     }
   ] as Project[]
 };

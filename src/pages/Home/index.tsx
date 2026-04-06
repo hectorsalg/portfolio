@@ -62,7 +62,7 @@ export function Home() {
             <div>
               <h4 className="text-xs font-bold text-text-secondary uppercase tracking-wider mb-3">{t('ui.home.techFrameworks')}</h4>
               <div className="flex flex-wrap gap-2">
-                {getSkills(['React', 'Angular', 'VueJS', 'JQuery']).map(skill => (
+                {getSkills(['React', 'Angular', 'VueJS', 'JQuery', 'Redux', 'Styled Components']).map(skill => (
                   <span key={skill.id} className="skill-tag">{skill.name}</span>
                 ))}
               </div>
@@ -71,7 +71,7 @@ export function Home() {
             <div>
               <h4 className="text-xs font-bold text-text-secondary uppercase tracking-wider mb-3">{t('ui.home.techStyle')}</h4>
               <div className="flex flex-wrap gap-2">
-                {getSkills(['Mobile First', 'CSS Grid', 'Flexbox', 'Media Queries', 'Material UI', 'Bootstrap', 'SASS', 'LESS']).map(skill => (
+                {getSkills(['Mobile First', 'CSS Grid', 'Flexbox', 'Media Queries', 'Material UI', 'Bootstrap', 'SASS', 'LESS', 'CSS Modules', 'Figma']).map(skill => (
                   <span key={skill.id} className="skill-tag">{skill.name}</span>
                 ))}
               </div>

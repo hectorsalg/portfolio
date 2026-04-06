@@ -96,6 +96,11 @@
       "title": "Agenda de contatos",
       "date": "Fev 2026",
       "description": "Interface de gerenciamento de contatos, com funcionalidades para criar, visualizar, editar e excluir."
+    },
+    "9": {
+      "title": "Projeto Efood",
+      "date": "Apr 2026",
+      "description": "Interface de gerenciamento de restaurantes semelhante ao Ifood."
     }
   }
 }
