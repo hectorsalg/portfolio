@@ -124,7 +124,7 @@ export const portfolioData = {
     {
       id: 9,
       image: '/assets/projeto-efood.png',
-      techStack: ['React', 'TypeScript', 'Styled Components', 'Figma'],
+      techStack: ['React', 'TypeScript', 'Styled Components', 'Figma', 'Redux'],
       linkGithub: 'https://github.com/hectorsalg/projeto-efood',
       linkPreview: 'https://projeto-efood-hector.vercel.app/'
     }
