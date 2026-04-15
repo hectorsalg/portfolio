@@ -11,8 +11,8 @@ export function Sidebar() {
   return (
     <>
       <div className="flex flex-col gap-8 p-6">
-        <div className="flex items-center gap-4">
-          <div className="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-14 shrink-0 ring-2 ring-border-color" style={{ backgroundImage: `url(${FotoPerfil})` }}></div>
+        <div className="flex flex-col items-center gap-4">
+          <div className="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-32 shrink-0 ring-2 ring-border-color" style={{ backgroundImage: `url(${FotoPerfil})` }}></div>
           <div className="flex flex-col overflow-hidden">
             <h1 className="text-primary text-lg font-bold leading-tight truncate">Hector Salgueiros</h1>
             <p className="text-text-secondary text-sm font-normal leading-normal truncate">{t('ui.sidebar.role')}</p>
