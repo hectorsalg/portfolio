@@ -101,6 +101,16 @@
       "title": "Efood Project",
       "date": "Apr 2026",
       "description": "User interface of a restaurant management system like Ifood."
+    },
+    "10": {
+      "title": "To Do Daily",
+      "date": "May 2026",
+      "description": "User interface of a to do list to add, view and delete tasks."
+    },
+    "11": {
+      "title": "SaaS Financeiro",
+      "date": "May 2026",
+      "description": "User interface of a dashboard financial to create, view, edit, and delete activities."
     }
   }
 }

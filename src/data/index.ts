@@ -49,7 +49,7 @@ export const portfolioData = {
     { id: 28, name: 'NestJS' }, { id: 29, name: 'Node.js' }, { id: 30, name: 'Python' }, { id: 31, name: 'Django' },
     { id: 32, name: 'PostgreSQL' }, { id: 33, name: 'Prisma ORM' }, { id: 34, name: 'Jest' }, { id: 35, name: 'Testing Library' }, 
     { id: 36, name: 'Cypress' }, { id: 37, name: 'ESLint' }, { id: 38, name: 'Prettier' }, { id: 39, name: 'Styled Components' }, 
-    { id: 40, name: 'CSS Modules' }, { id: 41, name: 'Redux' }, { id: 42, name: 'Figma'}
+    { id: 40, name: 'CSS Modules' }, { id: 41, name: 'Redux' }, { id: 42, name: 'Figma'}, { id: 43, name: 'Tailwind CSS' }, { id: 44, name: 'Next.js' }
 
   ] as Skill[],
 
@@ -127,6 +127,20 @@ export const portfolioData = {
       techStack: ['React', 'TypeScript', 'Styled Components', 'Figma', 'Redux'],
       linkGithub: 'https://github.com/hectorsalg/projeto-efood',
       linkPreview: 'https://projeto-efood-hector.vercel.app/'
+    },
+    {
+      id: 10,
+      image: '/assets/projeto-todo-daily.png',
+      techStack: ['Vue', 'TypeScript', 'Tailwind CSS', 'Vite'],
+      linkGithub: 'https://github.com/hectorsalg/todo-daily',
+      linkPreview: 'https://todo-daily-hectorsalg.vercel.app/'
+    },
+    {
+      id: 11,
+      image: '/assets/projeto-saas-financeiro.png',
+      techStack: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'Jest', 'Cypress', 'Testing Library'],
+      linkGithub: 'https://github.com/hectorsalg/atividades-financeiras',
+      linkPreview: 'https://atividades-financeiras.vercel.app/'
     }
   ] as Project[]
 };

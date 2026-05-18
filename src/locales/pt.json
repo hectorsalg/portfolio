@@ -101,6 +101,16 @@
       "title": "Projeto Efood",
       "date": "Abr 2026",
       "description": "Interface de gerenciamento de restaurantes semelhante ao Ifood."
-    }
+    },
+    "10": {
+      "title": "To Do Daily",
+      "date": "Mai 2026",
+      "description": "Interface de uma lista de tarefas para adicionar, visualizar e excluir atividades."
+    },
+    "11": {
+      "title": "SaaS Financeiro",
+      "date": "Mai 2026",
+      "description": "Interface de um dashboard financeiro para criar, visualizar, editar e excluir atividades."
+     }
   }
 }
