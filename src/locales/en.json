@@ -4,14 +4,14 @@
       "title": "Portfolio"
     },
     "sidebar": {
-      "role": "Front-End Engineer",
+      "role": "Junior Developer",
       "about": "About",
       "experience": "Experience",
       "projects": "Projects"
     },
     "home": {
       "greeting": "Hi, I'm Hector",
-      "aboutText": "Front-End Developer, Bachelor's in Information Systems from UFPI, focused on creating modern, responsive, and user-centered interfaces. I work with JavaScript and TypeScript, using Angular and React, and I have Back-End knowledge with NestJS, Prisma, and PostgreSQL, which allows me to have a complete view of applications.",
+      "aboutText": "Junior Developer, Bachelor's in Information Systems from UFPI, focused on creating modern, responsive, and user-centered interfaces. I work with JavaScript and TypeScript, using Angular and React, and I have Back-End knowledge with NestJS, Prisma, and PostgreSQL, which allows me to have a complete view of applications.",
       "techTitle": "Technical Skills",
       "techLangs": "Programming Languages",
       "techFrameworks": "Front-End Frameworks & Libraries",
